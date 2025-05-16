@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula3</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Insira suas informações pessoais</legend>
+            <h2>Gênero:</h2>
+            <input type="radio" name="genero" value="masculino" />
+            <span>Masculino</span><br>
+            <input type="radio" name="genero" value="feminino" />
+            <span>Feminino</span><br>
+            <input type="radio" name="genero" value="outro" />
+            <span>Outro</span><br>
+
+            <h2>Meio de locomoção:</h2>
+            <input type="checkbox" name="transporte" value="bicicleta">
+            <span>Bicicleta</span>
+            <input type="checkbox" name="transporte" value="moto">
+            <span>Moto</span>
+            <input type="checkbox" name="transporte" value="carro">
+            <span>Carro</span>
+            <input type="checkbox" name="transporte" value="onibus">
+            <span>Ônibus</span><br>
+
+            <h2>Tamanho da camiseta:</h2>
+            <select name="tamanho">
+                <option value="p">Pequeno</option>
+                <option value="m">Médio</option>
+                <option value="g">Grande</option>
+            </select><br>
+
+            <h2>Informaçôes pessoais:</h2>
+            <label for="nome_sobrenome">Nome e Sobrenome:</label><br>
+            <input type="text" name="nome_sobrenome" placeholder="Nome e Sobrenome..."><br>
+
+            <label for="opniao">Deixe uma mensagem:</label>
+            <textarea name="opniao">Escreva sua mensagem...</textarea>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar
+        </button>
+    </form>
+</body>
+
+</html>
