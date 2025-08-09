@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+footer {
+    grid-area: footer;
+    background-color: orange;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+section#produtos {
+    grid-area: produtos;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+section#servicos {
+    grid-area: servicos;
+    background-color: pink;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+nav {
+    grid-area: nav;
+    background-color:yellowgreen;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+aside {
+    grid-area: publicidade;
+    background-color: green;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr) ;
+    grid-template-areas:
+        "nav header header header header"
+        "nav produtos produtos produtos publicidade"
+        "nav servicos servicos servicos publicidade"
+        "nav footer footer footer footer";
+
+    height: 100%;
+  
+}
+
+

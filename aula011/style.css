@@ -81,7 +81,8 @@ aside {
         "nav produtos publicidade"
         "nav servicos publicidade"
         "nav footer footer";
-    
+
+    gap: 5px;
     height: 100vh; /* 100% da altura da viewport */
     width: 100vw; /* 100% da largura da viewport */
 }
